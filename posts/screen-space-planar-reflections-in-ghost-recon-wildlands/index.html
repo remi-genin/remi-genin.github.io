@@ -259,7 +259,7 @@ Once it’s encoded in the hash texture it’s ready to be used for the second p
 <em>Concurrent reflective candidates resulting in blinking pixels</em></p>
 <p>There are two flagrant issues here:</p>
 <ul>
-<li>The projection of the source positions into the reflection is an injective transformation, which means that two different pixels from the main view can be merged in the reflection and become “reflective concurrents” without knowing which one of them should prevail. Hence the blinking pixels.</li>
+<li>The projection of the source positions into the reflection is an <strong>injective transformation</strong>, which means that two different pixels from the main view can be merged in the reflection and become “reflective concurrents” without knowing which one of them should prevail. Hence the blinking pixels.</li>
 <li>There are gaps in the reflection caused by the occlusion in the main view that prevents valid pixels in the reflection to be projected.</li>
 </ul>
 <p> </p>

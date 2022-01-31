@@ -2,12 +2,10 @@
     background: #3264a0; /* Blue blinking cursor */
 }
 
-.header {
-  background: #202020; /* Darker background shade than the original theme */
-}
-
+/* Darker background shades than the original theme */
 body.dark-theme {
-  background: #161616; /* Darker background shade than the original theme */
+  --header: #202020;     /* Background color for the header */
+  --background: #161616; /* Background color for the main content */
 }
 
 .post {
