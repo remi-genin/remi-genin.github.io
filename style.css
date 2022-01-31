@@ -2,8 +2,12 @@
     background: #3264a0; /* Blue blinking cursor */
 }
 
+.header {
+  background: #202020; /* Darker background shade than the original theme */
+}
+
 body.dark-theme {
-  --background: #202020; /* Darker background shade than the original theme */
+  background: #161616; /* Darker background shade than the original theme */
 }
 
 .post {
