@@ -1,0 +1,15 @@
+.logo__cursor {
+    background: #3264a0; /* Blue blinking cursor */
+}
+
+body.dark-theme {
+  --background: #202020; /* Darker background shade than the original theme */
+}
+
+.post {
+  max-width: 1000px; /* Instead of the original 800px */
+}
+
+.footer .copyright {
+  font-size: 80%; /* Minimize the footer copyright text */
+}
