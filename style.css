@@ -13,6 +13,11 @@ body.dark-theme {
   max-width: 1000px; /* Instead of the original 800px */
 }
 
+/* Transparent images need a dark background so they are readable even in bright  mode */
+img {
+  background-color: #161616; /* Same value as the dark theme background */
+}
+
 .footer .copyright {
   font-size: 80%; /* Minimize the footer copyright text */
 }
