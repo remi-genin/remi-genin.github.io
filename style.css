@@ -1,3 +1,5 @@
+/* All the styling in this file is related to the "hello-friend" theme */
+
 .logo__cursor {
     background: #3264a0; /* Blue blinking cursor */
 }
@@ -7,6 +9,12 @@ body.dark-theme {
   
   --background: #161616; /* Darker background color for the main content */
   --color: #dcdcdc;      /* Brighter text color */
+}
+
+.post-cover {
+  margin-left: 0px;
+  max-width:1000px;
+  width:100%;
 }
 
 .post {

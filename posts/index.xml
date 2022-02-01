@@ -22,13 +22,12 @@
       <guid>https://remi-genin.github.io/posts/screen-space-planar-reflections-in-ghost-recon-wildlands/</guid>
       <description>
         
-          
-          
+          &lt;img src=&#34;https://remi-genin.github.io/images/posts/screen-space-planar-reflections-in-ghost-recon-wildlands/SSPR_Bleed2.jpg&#34;/&gt;
           
         
         
         
-          Reflections done in screen-space #  The screen space reflections algorithm (SSR) is a technology now used in numerous video games to provide the reflection visuals. They are expected to be less expensive than actual reflection rendering and more accurate than cubemap-based reflections, as long as the reflection source is present on the screen. Still, this technology isn’t that affordable in a realtime application and it suffers from a lot of graphic caveats: SSR isn’t the final solution to the reflection inputs.
+          How a specialized form of SSR is used to deliver optimized and quality reflection visuals in Ghost Recon Wildlands.
           
         
         </description>
